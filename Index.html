@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <meta charset="UTF-8">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="viewport" content="width=device-width">
+      <title>decryptor</title>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    
+    <body>
+      <main>
+        <h1 class="titulo">Decryptor</h1>
+        <ul class="container">
+          <li>
+              <!-- <div class="container"> -->
+              <!-- <label for="encrypted-text">Texto a encriptar:</label> -->
+              <textarea id="input-text" rows="10" placeholder="Ingresa el texto aqui (solo letras minisculas y sin acentos)"></textarea>
+              <div class="centrar_boton">
+                <button class="boton_encriptar" id="encriptar-btn"> Encriptar </button>
+                <button class="boton_desencriptar" id="desencriptar-btn">Desencriptar</button>
+              </div>
+          </li>
+          <li>
+              <!-- <label for="decrypted-text">Texto encriptado:</label> -->
+              <textarea id="output-text" rows="10" readonly placeholder="Ingresa el texto que deseas encriptar o desencriptar"></textarea>
+              <!-- </div> -->
+              <div class="centrar_boton">
+                <button class="boton_copiar" id="copiar-btn"> Copiar </button>
+                <button class="boton_reset" id="reset-btn"> Reiniciar </button>
+              </div>
+          </li>
+        </ul>
+        <script src="script.js"></script>
+      </main>
+
+      </body>
+
+</html>

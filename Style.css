@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .titulo {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #E9ECF8;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .container li{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+  }
+
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .boton_encriptar {
+    padding: 10px 20px;
+    background-color: #0A3B71;
+    color: #CED4DA;
+    border: #0A3B71;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    height: 40 px;
+    width: 150px;
+  }
+
+  .boton_desencriptar {
+    padding: 10px 20px;
+    background-color: #CED4DA;
+    color: #0A3B71;
+    border: 1px solid #0A3B71;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    height: 40 px;
+    width: 150px;
+  }
+
+  .boton_copiar {
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #0A3B71;
+    border: 1px solid #0A3B71;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    height: 40 px;
+    width: 150px;
+  }
+
+  .boton_reset {
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #0A3B71;
+    border: 1px solid #0A3B71;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    height: 40 px;
+    width: 150px;
+  }
+
+  .centrar_boton {
+    display: flex;
+    justify-content: center;
+  }
+
+  button:hover {
+    background-color: red;
+  }
+  
+  @media screen and (max-width:480px) {
+
+    .container {
+      width: auto;
+    }
+    .container li{
+      display: block;
+      width: auto;
+    }
+    
+  }
